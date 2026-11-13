@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/">
+    <dc:title xml:lang="en">NextCity NextCity Dataset Keywords</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity NextCity Dataset Keywords</skos:prefLabel>
+    <dc:description xml:lang="en">A single shared vocabulary for tagging NextCity datasets. It covers the use case, place, theme, indicators, spatial unit, source data, production method and role of a dataset, so any dataset can be found by what it contains, where it comes from and how it was made. Pick every term that applies.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc1"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc2"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc3"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#lisbon"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#lisbon-zero-emission-zone-zer"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#air-quality"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#traffic-and-mobility"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#urban-energy"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#residential-buildings"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#public-health"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#demographics"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#climate-change-adaptation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#no2"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#pm2-5"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#heating-demand"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cooling-demand"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#domestic-hot-water"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#energy-class"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#ntc-energy-indicator"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#avoided-deaths"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#years-of-life-lost"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#years-lived-with-disability"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#resident-population"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#h3-resolution-10"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#h3-resolution-11"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#bgri-census-subsection"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cml-sensor-network"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#eea-air-quality-rasters"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#waze"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#ine-census-bgri"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#adene-energy-certificates"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#areasedificadas-dgt"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cml-building-cadastre"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#spatial-interpolation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#comparative-risk-assessment"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#dasymetric-mapping"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#synthetic-population-generation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#baseline-surface"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#scenario-output"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#synthetic-dataset"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#digital-twin-artifact"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#3d-building-model"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc1">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">NextCity UC1</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Use Case 1: traffic-related NO2 in the Lisbon ZER, assessing traffic-flow improvement and fleet electrification scenarios.</skos:scopeNote>
+    <skos:definition xml:lang="en">Use Case 1: traffic-related NO2 in the Lisbon ZER, assessing traffic-flow improvement and fleet electrification scenarios.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc2">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">NextCity UC2</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Use Case 2: residential energy demand under temperature-change scenarios, built on a synthetic dwelling stock.</skos:scopeNote>
+    <skos:definition xml:lang="en">Use Case 2: residential energy demand under temperature-change scenarios, built on a synthetic dwelling stock.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#nextcity-uc3">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">NextCity UC3</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Use Case 3: health impacts of PM2.5 and NO2 exposure, quantified by comparative risk assessment under air-quality improvement scenarios.</skos:scopeNote>
+    <skos:definition xml:lang="en">Use Case 3: health impacts of PM2.5 and NO2 exposure, quantified by comparative risk assessment under air-quality improvement scenarios.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#lisbon">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">Lisbon</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Lisboa</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The municipality of Lisbon (Concelho de Lisboa), Portugal.</skos:scopeNote>
+    <skos:definition xml:lang="en">The municipality of Lisbon (Concelho de Lisboa), Portugal.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#lisbon-zero-emission-zone-zer">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">Lisbon Zero-Emission Zone (ZER)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">ZER</skos:altLabel>
+    <skos:altLabel xml:lang="en">Zona de Emissões Reduzidas</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The Zona de Emissões Reduzidas and its buffer area in central Lisbon: the shared study area of the NextCity digital twin.</skos:scopeNote>
+    <skos:definition xml:lang="en">The Zona de Emissões Reduzidas and its buffer area in central Lisbon: the shared study area of the NextCity digital twin.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#air-quality">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">air quality</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Concentrations of ambient air pollutants and their spatial and temporal distribution.</skos:scopeNote>
+    <skos:definition xml:lang="en">Concentrations of ambient air pollutants and their spatial and temporal distribution.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#traffic-and-mobility">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">traffic and mobility</skos:prefLabel>
+    <skos:altLabel xml:lang="en">mobility</skos:altLabel>
+    <skos:altLabel xml:lang="en">traffic</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Road traffic activity, congestion, vehicle fleet composition and their emissions.</skos:scopeNote>
+    <skos:definition xml:lang="en">Road traffic activity, congestion, vehicle fleet composition and their emissions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#urban-energy">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">urban energy</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Energy demand and consumption in the urban environment.</skos:scopeNote>
+    <skos:definition xml:lang="en">Energy demand and consumption in the urban environment.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#residential-buildings">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">residential buildings</skos:prefLabel>
+    <skos:altLabel xml:lang="en">buildings</skos:altLabel>
+    <skos:scopeNote xml:lang="en">The residential building and dwelling stock and its physical and energy characteristics.</skos:scopeNote>
+    <skos:definition xml:lang="en">The residential building and dwelling stock and its physical and energy characteristics.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#public-health">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">public health</skos:prefLabel>
+    <skos:altLabel xml:lang="en">health</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Population health outcomes, disease burden and health impact assessment.</skos:scopeNote>
+    <skos:definition xml:lang="en">Population health outcomes, disease burden and health impact assessment.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#demographics">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">demographics</skos:prefLabel>
+    <skos:altLabel xml:lang="en">population</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Size, age structure and spatial distribution of the resident population.</skos:scopeNote>
+    <skos:definition xml:lang="en">Size, age structure and spatial distribution of the resident population.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#climate-change-adaptation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">climate change adaptation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Assessing and responding to the effects of changing temperatures and climate on urban systems.</skos:scopeNote>
+    <skos:definition xml:lang="en">Assessing and responding to the effects of changing temperatures and climate on urban systems.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#no2">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">NO2</skos:prefLabel>
+    <skos:altLabel xml:lang="en">nitrogen dioxide</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Nitrogen dioxide concentration, in µg/m³.</skos:scopeNote>
+    <skos:definition xml:lang="en">Nitrogen dioxide concentration, in µg/m³.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#pm2-5">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">PM2.5</skos:prefLabel>
+    <skos:altLabel xml:lang="en">fine particulate matter</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Concentration of fine particulate matter with diameter ≤ 2.5 µm, in µg/m³.</skos:scopeNote>
+    <skos:definition xml:lang="en">Concentration of fine particulate matter with diameter ≤ 2.5 µm, in µg/m³.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#heating-demand">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">heating demand</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Energy needed for space heating, in kWh/year.</skos:scopeNote>
+    <skos:definition xml:lang="en">Energy needed for space heating, in kWh/year.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cooling-demand">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">cooling demand</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Energy needed for space cooling, in kWh/year.</skos:scopeNote>
+    <skos:definition xml:lang="en">Energy needed for space cooling, in kWh/year.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#domestic-hot-water">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">domestic hot water</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DHW</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Energy needed for domestic hot water production, in kWh/year.</skos:scopeNote>
+    <skos:definition xml:lang="en">Energy needed for domestic hot water production, in kWh/year.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#energy-class">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">energy class</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Portuguese energy performance certificate class (A+ to F).</skos:scopeNote>
+    <skos:definition xml:lang="en">Portuguese energy performance certificate class (A+ to F).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#ntc-energy-indicator">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">Ntc energy indicator</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Ntc</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Nominal annual primary energy need (Ntc, kWh/m²·year) defined by the Portuguese REH framework.</skos:scopeNote>
+    <skos:definition xml:lang="en">Nominal annual primary energy need (Ntc, kWh/m²·year) defined by the Portuguese REH framework.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#avoided-deaths">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">avoided deaths</skos:prefLabel>
+    <skos:altLabel xml:lang="en">premature mortality</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Premature deaths avoided per year under a scenario, relative to baseline.</skos:scopeNote>
+    <skos:definition xml:lang="en">Premature deaths avoided per year under a scenario, relative to baseline.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#years-of-life-lost">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">years of life lost</skos:prefLabel>
+    <skos:altLabel xml:lang="en">YLL</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Years of life lost (YLL) due to premature mortality.</skos:scopeNote>
+    <skos:definition xml:lang="en">Years of life lost (YLL) due to premature mortality.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#years-lived-with-disability">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">years lived with disability</skos:prefLabel>
+    <skos:altLabel xml:lang="en">YLD</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Years lived with disability (YLD) due to morbidity.</skos:scopeNote>
+    <skos:definition xml:lang="en">Years lived with disability (YLD) due to morbidity.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#resident-population">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">resident population</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Number of residents, optionally stratified by age band.</skos:scopeNote>
+    <skos:definition xml:lang="en">Number of residents, optionally stratified by age band.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#h3-resolution-10">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">H3 resolution 10</skos:prefLabel>
+    <skos:altLabel xml:lang="en">H3-R10</skos:altLabel>
+    <skos:scopeNote xml:lang="en">H3 hexagonal grid cell at resolution 10 (~66 m edge length, ~0.015 km²).</skos:scopeNote>
+    <skos:definition xml:lang="en">H3 hexagonal grid cell at resolution 10 (~66 m edge length, ~0.015 km²).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#h3-resolution-11">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">H3 resolution 11</skos:prefLabel>
+    <skos:altLabel xml:lang="en">H3-R11</skos:altLabel>
+    <skos:scopeNote xml:lang="en">H3 hexagonal grid cell at resolution 11 (~25 m edge length).</skos:scopeNote>
+    <skos:definition xml:lang="en">H3 hexagonal grid cell at resolution 11 (~25 m edge length).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#bgri-census-subsection">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">BGRI census subsection</skos:prefLabel>
+    <skos:altLabel xml:lang="en">BGRI</skos:altLabel>
+    <skos:scopeNote xml:lang="en">INE BGRI 2021 statistical subsection (subsecção estatística).</skos:scopeNote>
+    <skos:definition xml:lang="en">INE BGRI 2021 statistical subsection (subsecção estatística).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cml-sensor-network">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">CML sensor network</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CML environmental monitoring</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Lisbon City Council (Câmara Municipal de Lisboa) network of ~26 fixed environmental monitoring stations.</skos:scopeNote>
+    <skos:definition xml:lang="en">Lisbon City Council (Câmara Municipal de Lisboa) network of ~26 fixed environmental monitoring stations.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#eea-air-quality-rasters">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">EEA air quality rasters</skos:prefLabel>
+    <skos:altLabel xml:lang="en">EEA</skos:altLabel>
+    <skos:scopeNote xml:lang="en">European Environment Agency 1 km annual-mean interpolated air quality maps.</skos:scopeNote>
+    <skos:definition xml:lang="en">European Environment Agency 1 km annual-mean interpolated air quality maps.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#waze">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">Waze</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Waze crowd-sourced traffic jam records.</skos:scopeNote>
+    <skos:definition xml:lang="en">Waze crowd-sourced traffic jam records.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#ine-census-bgri">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">INE Census / BGRI</skos:prefLabel>
+    <skos:altLabel xml:lang="en">INE</skos:altLabel>
+    <skos:altLabel xml:lang="en">Census 2021</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Statistics Portugal (INE) Census 2011 and 2021 and the BGRI geographic base.</skos:scopeNote>
+    <skos:definition xml:lang="en">Statistics Portugal (INE) Census 2011 and 2021 and the BGRI geographic base.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#adene-energy-certificates">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">ADENE energy certificates</skos:prefLabel>
+    <skos:altLabel xml:lang="en">SCE</skos:altLabel>
+    <skos:altLabel xml:lang="en">ADENE</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Portuguese energy certification system (SCE) records managed by ADENE.</skos:scopeNote>
+    <skos:definition xml:lang="en">Portuguese energy certification system (SCE) records managed by ADENE.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#areasedificadas-dgt">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">AreasEdificadas (DGT)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">AreasEdificadas</skos:altLabel>
+    <skos:scopeNote xml:lang="en">DGT built-up area polygons (Áreas Edificadas 2018).</skos:scopeNote>
+    <skos:definition xml:lang="en">DGT built-up area polygons (Áreas Edificadas 2018).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#cml-building-cadastre">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">CML building cadastre</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Lisbon City Council building footprints with number of floors.</skos:scopeNote>
+    <skos:definition xml:lang="en">Lisbon City Council building footprints with number of floors.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#spatial-interpolation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">spatial interpolation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Estimating values at unsampled locations from point observations, e.g. Ordinary Kriging or IDW.</skos:scopeNote>
+    <skos:definition xml:lang="en">Estimating values at unsampled locations from point observations, e.g. Ordinary Kriging or IDW.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#comparative-risk-assessment">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">comparative risk assessment</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CRA</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Epidemiological method linking changes in pollutant exposure to changes in health outcomes via concentration-response functions.</skos:scopeNote>
+    <skos:definition xml:lang="en">Epidemiological method linking changes in pollutant exposure to changes in health outcomes via concentration-response functions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#dasymetric-mapping">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">dasymetric mapping</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Redistributing areal counts to finer units using an ancillary layer such as built-up area.</skos:scopeNote>
+    <skos:definition xml:lang="en">Redistributing areal counts to finer units using an ancillary layer such as built-up area.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#synthetic-population-generation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">synthetic population generation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Constructing synthetic records that reproduce known statistical totals.</skos:scopeNote>
+    <skos:definition xml:lang="en">Constructing synthetic records that reproduce known statistical totals.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#baseline-surface">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">baseline surface</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Reference (no-intervention) dataset against which scenarios are compared.</skos:scopeNote>
+    <skos:definition xml:lang="en">Reference (no-intervention) dataset against which scenarios are compared.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#scenario-output">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">scenario output</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Results produced by a model for one or more scenarios.</skos:scopeNote>
+    <skos:definition xml:lang="en">Results produced by a model for one or more scenarios.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#synthetic-dataset">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">synthetic dataset</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Generated to be statistically representative of real data without containing real records.</skos:scopeNote>
+    <skos:definition xml:lang="en">Generated to be statistically representative of real data without containing real records.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#digital-twin-artifact">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">digital twin artifact</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Pre-computed payload consumed directly by the NextCity digital-twin frontend or API.</skos:scopeNote>
+    <skos:definition xml:lang="en">Pre-computed payload consumed directly by the NextCity digital-twin frontend or API.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/#3d-building-model">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/nextcity-keywords/"/>
+    <skos:prefLabel xml:lang="en">3D building model</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Three-dimensional building geometry, e.g. 3D Tiles.</skos:scopeNote>
+    <skos:definition xml:lang="en">Three-dimensional building geometry, e.g. 3D Tiles.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>
