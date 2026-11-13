@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/">
+    <dc:title xml:lang="en">NextCity Architecture</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity Architecture</skos:prefLabel>
+    <dc:description xml:lang="en">The structural blueprint of a tool: how its components are organised and connected. Mandatory for ML/DL algorithms; one architecture may have several algorithm implementations.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#custom-emission-factor-chain"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#custom-energy-demand-chain"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#preprocessing-pipeline"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#web-application"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#pre-computed-static-api"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#live-serverless-api"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#in-browser-database"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#convolutional-neural-network-cnn"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#recurrent-neural-network-rnn"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#long-short-term-memory-lstm"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#transformer"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#random-forest"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#decision-tree"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#gradient-boosting"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#encoder-decoder"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#graph-neural-network-gnn"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#custom-emission-factor-chain">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">custom emission factor chain</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Traffic activity to emission factor to concentration chain (UC1).</skos:scopeNote>
+    <skos:definition xml:lang="en">Traffic activity to emission factor to concentration chain (UC1).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#custom-energy-demand-chain">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">custom energy demand chain</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Dwelling stock to energy need to temperature-scaled demand chain (UC2).</skos:scopeNote>
+    <skos:definition xml:lang="en">Dwelling stock to energy need to temperature-scaled demand chain (UC2).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#preprocessing-pipeline">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">preprocessing pipeline</skos:prefLabel>
+    <skos:altLabel xml:lang="en">pipeline</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Sequential stages turning raw sources into model-ready inputs.</skos:scopeNote>
+    <skos:definition xml:lang="en">Sequential stages turning raw sources into model-ready inputs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#web-application">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">web application</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Browser-based application with a user interface.</skos:scopeNote>
+    <skos:definition xml:lang="en">Browser-based application with a user interface.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#pre-computed-static-api">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">pre-computed static API</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Results computed at build time and served as static files.</skos:scopeNote>
+    <skos:definition xml:lang="en">Results computed at build time and served as static files.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#live-serverless-api">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">live serverless API</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Results computed on request by a serverless function.</skos:scopeNote>
+    <skos:definition xml:lang="en">Results computed on request by a serverless function.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#in-browser-database">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">in-browser database</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Database engine running client-side in the browser.</skos:scopeNote>
+    <skos:definition xml:lang="en">Database engine running client-side in the browser.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#convolutional-neural-network-cnn">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">convolutional neural network (CNN)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CNN</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#recurrent-neural-network-rnn">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">recurrent neural network (RNN)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">RNN</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#long-short-term-memory-lstm">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">long short-term memory (LSTM)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">LSTM</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#transformer">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">transformer</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#random-forest">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">random forest</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#decision-tree">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">decision tree</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#gradient-boosting">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">gradient boosting</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#encoder-decoder">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">encoder-decoder</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#graph-neural-network-gnn">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
+    <skos:prefLabel xml:lang="en">graph neural network (GNN)</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GNN</skos:altLabel>
+  </skos:Concept>
+</rdf:RDF>

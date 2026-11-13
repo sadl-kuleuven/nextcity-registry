@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/">
+    <dc:title xml:lang="en">NextCity Framework / Library</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity Framework / Library</skos:prefLabel>
+    <dc:description xml:lang="en">Software frameworks and libraries a tool depends on. Multiple values allowed; documents what is needed to run or reproduce the tool.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#numpy"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pandas"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#scipy"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#geopandas"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#h3"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pykrige"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#rasterio"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pyarrow"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#shapely"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#gdal-ogr"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#xarray"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#matplotlib"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#plotly"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#ipywidgets"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#svelte-sveltekit"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#maplibre-gl"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#deck-gl"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#cesiumjs"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#duckdb-wasm"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#vitest"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#playwright"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#scikit-learn"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pytorch"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#tensorflow"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/#dask"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#numpy">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">NumPy</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Numerical array computing.</skos:scopeNote>
+    <skos:definition xml:lang="en">Numerical array computing.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pandas">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">pandas</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Tabular data manipulation.</skos:scopeNote>
+    <skos:definition xml:lang="en">Tabular data manipulation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#scipy">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">SciPy</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Scientific computing (optimisation, interpolation).</skos:scopeNote>
+    <skos:definition xml:lang="en">Scientific computing (optimisation, interpolation).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#geopandas">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">GeoPandas</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Geospatial extension of pandas.</skos:scopeNote>
+    <skos:definition xml:lang="en">Geospatial extension of pandas.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#h3">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">H3</skos:prefLabel>
+    <skos:altLabel xml:lang="en">H3-py</skos:altLabel>
+    <skos:altLabel xml:lang="en">H3-Pandas</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Uber H3 hexagonal geospatial indexing and its Python bindings.</skos:scopeNote>
+    <skos:definition xml:lang="en">Uber H3 hexagonal geospatial indexing and its Python bindings.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pykrige">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">PyKrige</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Kriging toolkit for Python.</skos:scopeNote>
+    <skos:definition xml:lang="en">Kriging toolkit for Python.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#rasterio">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">rasterio</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Raster geospatial data I/O.</skos:scopeNote>
+    <skos:definition xml:lang="en">Raster geospatial data I/O.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pyarrow">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">pyarrow</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Apache Arrow and Parquet I/O.</skos:scopeNote>
+    <skos:definition xml:lang="en">Apache Arrow and Parquet I/O.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#shapely">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Shapely</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Planar geometric objects.</skos:scopeNote>
+    <skos:definition xml:lang="en">Planar geometric objects.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#gdal-ogr">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">GDAL/OGR</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GDAL</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Raster and vector geospatial I/O.</skos:scopeNote>
+    <skos:definition xml:lang="en">Raster and vector geospatial I/O.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#xarray">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Xarray</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">N-dimensional labelled arrays (NetCDF, Zarr).</skos:scopeNote>
+    <skos:definition xml:lang="en">N-dimensional labelled arrays (NetCDF, Zarr).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#matplotlib">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Matplotlib</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">2D plotting library.</skos:scopeNote>
+    <skos:definition xml:lang="en">2D plotting library.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#plotly">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Plotly</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Interactive browser-based charts.</skos:scopeNote>
+    <skos:definition xml:lang="en">Interactive browser-based charts.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#ipywidgets">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">ipywidgets</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Interactive Jupyter widgets.</skos:scopeNote>
+    <skos:definition xml:lang="en">Interactive Jupyter widgets.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#svelte-sveltekit">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Svelte / SvelteKit</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Svelte 5</skos:altLabel>
+    <skos:altLabel xml:lang="en">SvelteKit</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Web UI framework (Svelte 5) and application framework.</skos:scopeNote>
+    <skos:definition xml:lang="en">Web UI framework (Svelte 5) and application framework.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#maplibre-gl">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">MapLibre GL</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Open-source WebGL web map rendering.</skos:scopeNote>
+    <skos:definition xml:lang="en">Open-source WebGL web map rendering.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#deck-gl">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">deck.gl</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">WebGL geospatial visualisation layers, e.g. H3HexagonLayer.</skos:scopeNote>
+    <skos:definition xml:lang="en">WebGL geospatial visualisation layers, e.g. H3HexagonLayer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#cesiumjs">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">CesiumJS</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">3D globe and 3D Tiles rendering engine.</skos:scopeNote>
+    <skos:definition xml:lang="en">3D globe and 3D Tiles rendering engine.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#duckdb-wasm">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">DuckDB-WASM</skos:prefLabel>
+    <skos:altLabel xml:lang="en">DuckDB</skos:altLabel>
+    <skos:scopeNote xml:lang="en">SQL database compiled to WebAssembly, running in the browser.</skos:scopeNote>
+    <skos:definition xml:lang="en">SQL database compiled to WebAssembly, running in the browser.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#vitest">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Vitest</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">JavaScript unit testing framework.</skos:scopeNote>
+    <skos:definition xml:lang="en">JavaScript unit testing framework.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#playwright">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Playwright</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Browser automation for end-to-end testing.</skos:scopeNote>
+    <skos:definition xml:lang="en">Browser automation for end-to-end testing.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#scikit-learn">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">scikit-learn</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Classical ML algorithms and utilities.</skos:scopeNote>
+    <skos:definition xml:lang="en">Classical ML algorithms and utilities.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#pytorch">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">PyTorch</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Deep learning with dynamic computation graphs.</skos:scopeNote>
+    <skos:definition xml:lang="en">Deep learning with dynamic computation graphs.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#tensorflow">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">TensorFlow</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">ML platform for building and deploying models.</skos:scopeNote>
+    <skos:definition xml:lang="en">ML platform for building and deploying models.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/framework/#dask">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/framework/"/>
+    <skos:prefLabel xml:lang="en">Dask</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Parallel computing for larger-than-memory data.</skos:scopeNote>
+    <skos:definition xml:lang="en">Parallel computing for larger-than-memory data.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

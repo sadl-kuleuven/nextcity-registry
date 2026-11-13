@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/">
+    <dc:title xml:lang="en">NextCity Algorithm</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity Algorithm</skos:prefLabel>
+    <dc:description xml:lang="en">The specific algorithms a tool implements. Multiple values allowed; use custom-method when no standard name applies and describe it in the record.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#custom-method"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#copert-emission-factor"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#idw-interpolation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#ordinary-kriging"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#leave-one-out-cross-validation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#comparative-risk-assessment"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#dasymetric-mapping"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#proportional-area-allocation"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#iterative-proportional-fitting"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#spatial-join"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#ntc-temperature-scaling"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#randomforestclassifier"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#randomforestregressor"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeclassifier"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeregressor"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingclassifier"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingregressor"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#k-means-clustering"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#dbscan"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#linear-regression"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#logistic-regression"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#custom-method">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">custom-method</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Bespoke project-specific implementation.</skos:scopeNote>
+    <skos:definition xml:lang="en">Bespoke project-specific implementation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#copert-emission-factor">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">COPERT emission factor</skos:prefLabel>
+    <skos:altLabel xml:lang="en">COPERT</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Speed-dependent vehicle emission factors, EF(v) = a/v + b + c·v, COPERT/HBEFA-consistent.</skos:scopeNote>
+    <skos:definition xml:lang="en">Speed-dependent vehicle emission factors, EF(v) = a/v + b + c·v, COPERT/HBEFA-consistent.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#idw-interpolation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">IDW interpolation</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IDW</skos:altLabel>
+    <skos:altLabel xml:lang="en">Inverse Distance Weighting</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Inverse Distance Weighting spatial interpolation.</skos:scopeNote>
+    <skos:definition xml:lang="en">Inverse Distance Weighting spatial interpolation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#ordinary-kriging">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">Ordinary Kriging</skos:prefLabel>
+    <skos:altLabel xml:lang="en">OK</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Geostatistical interpolation from a fitted variogram.</skos:scopeNote>
+    <skos:definition xml:lang="en">Geostatistical interpolation from a fitted variogram.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#leave-one-out-cross-validation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">Leave-One-Out Cross-Validation</skos:prefLabel>
+    <skos:altLabel xml:lang="en">LOOCV</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Withholds each observation in turn to compare methods.</skos:scopeNote>
+    <skos:definition xml:lang="en">Withholds each observation in turn to compare methods.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#comparative-risk-assessment">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">comparative risk assessment</skos:prefLabel>
+    <skos:altLabel xml:lang="en">CRA</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Links exposure changes to health outcome changes via concentration-response functions.</skos:scopeNote>
+    <skos:definition xml:lang="en">Links exposure changes to health outcome changes via concentration-response functions.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#dasymetric-mapping">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">dasymetric mapping</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Redistributes areal counts to finer units using an ancillary layer.</skos:scopeNote>
+    <skos:definition xml:lang="en">Redistributes areal counts to finer units using an ancillary layer.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#proportional-area-allocation">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">proportional area allocation</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Allocates quantities between overlapping polygons by intersecting area.</skos:scopeNote>
+    <skos:definition xml:lang="en">Allocates quantities between overlapping polygons by intersecting area.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#iterative-proportional-fitting">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">iterative proportional fitting</skos:prefLabel>
+    <skos:altLabel xml:lang="en">IPF</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Adjusts a table so its margins match control totals.</skos:scopeNote>
+    <skos:definition xml:lang="en">Adjusts a table so its margins match control totals.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#spatial-join">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">spatial join</skos:prefLabel>
+    <skos:altLabel xml:lang="en">point-in-polygon</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Attaches attributes by spatial relationship, e.g. point-in-polygon.</skos:scopeNote>
+    <skos:definition xml:lang="en">Attaches attributes by spatial relationship, e.g. point-in-polygon.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#ntc-temperature-scaling">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">Ntc temperature scaling</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Linear scaling of the Ntc energy need to a temperature change (REH).</skos:scopeNote>
+    <skos:definition xml:lang="en">Linear scaling of the Ntc energy need to a temperature change (REH).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#randomforestclassifier">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">RandomForestClassifier</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#randomforestregressor">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">RandomForestRegressor</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeclassifier">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">DecisionTreeClassifier</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeregressor">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">DecisionTreeRegressor</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingclassifier">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">GradientBoostingClassifier</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingregressor">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">GradientBoostingRegressor</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#k-means-clustering">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">k-means clustering</skos:prefLabel>
+    <skos:altLabel xml:lang="en">k-means</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#dbscan">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">DBSCAN</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#linear-regression">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">linear regression</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#logistic-regression">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
+    <skos:prefLabel xml:lang="en">logistic regression</skos:prefLabel>
+  </skos:Concept>
+</rdf:RDF>

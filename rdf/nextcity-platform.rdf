@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/">
+    <dc:title xml:lang="en">NextCity Platform</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity Platform</skos:prefLabel>
+    <dc:description xml:lang="en">Where a tool is hosted or executed. Multiple values allowed; tells users what environment is needed to run it.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#jupyter-notebook"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#local"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#web-browser"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#cloud"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#vercel"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#serverless-function"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#aws"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#google-cloud-platform"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#microsoft-azure"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#docker"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#kubernetes"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/#hpc-cluster"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#jupyter-notebook">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Jupyter Notebook</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#local">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">local</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Runs on a local workstation.</skos:scopeNote>
+    <skos:definition xml:lang="en">Runs on a local workstation.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#web-browser">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">web browser</skos:prefLabel>
+    <skos:altLabel xml:lang="en">client-side</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Runs client-side in the user's web browser.</skos:scopeNote>
+    <skos:definition xml:lang="en">Runs client-side in the user's web browser.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#cloud">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">cloud</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Hosted or run on cloud infrastructure (generic).</skos:scopeNote>
+    <skos:definition xml:lang="en">Hosted or run on cloud infrastructure (generic).</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#vercel">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Vercel</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Vercel hosting and CDN for web applications.</skos:scopeNote>
+    <skos:definition xml:lang="en">Vercel hosting and CDN for web applications.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#serverless-function">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">serverless function</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">On-demand cloud function with no dedicated server.</skos:scopeNote>
+    <skos:definition xml:lang="en">On-demand cloud function with no dedicated server.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#aws">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">AWS</skos:prefLabel>
+    <skos:altLabel xml:lang="en">Amazon Web Services</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#google-cloud-platform">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Google Cloud Platform</skos:prefLabel>
+    <skos:altLabel xml:lang="en">GCP</skos:altLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#microsoft-azure">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Microsoft Azure</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#docker">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Docker</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#kubernetes">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">Kubernetes</skos:prefLabel>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#hpc-cluster">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
+    <skos:prefLabel xml:lang="en">HPC cluster</skos:prefLabel>
+    <skos:altLabel xml:lang="en">HPC</skos:altLabel>
+    <skos:scopeNote xml:lang="en">High-performance computing cluster.</skos:scopeNote>
+    <skos:definition xml:lang="en">High-performance computing cluster.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>

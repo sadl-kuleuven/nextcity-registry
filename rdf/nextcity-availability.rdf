@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/">
+  <skos:ConceptScheme rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/">
+    <dc:title xml:lang="en">NextCity Availability</dc:title>
+    <skos:prefLabel xml:lang="en">NextCity Availability</skos:prefLabel>
+    <dc:description xml:lang="en">Access status of a tool. Exactly one value per record; tells users whether and how they can obtain or run the tool.</dc:description>
+    <dc:creator>NextCity Project Consortium</dc:creator>
+    <dct:issued>2026-11-13</dct:issued>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/#available"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/#under-development"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/#restricted"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/#on-request"/>
+    <skos:hasTopConcept rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/#discontinued"/>
+  </skos:ConceptScheme>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/#available">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:prefLabel xml:lang="en">available</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Publicly accessible and ready to use.</skos:scopeNote>
+    <skos:definition xml:lang="en">Publicly accessible and ready to use.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/#under-development">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:prefLabel xml:lang="en">under development</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Actively being developed; not yet ready for general use.</skos:scopeNote>
+    <skos:definition xml:lang="en">Actively being developed; not yet ready for general use.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/#restricted">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:prefLabel xml:lang="en">restricted</skos:prefLabel>
+    <skos:altLabel xml:lang="en">internal use</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Exists but access is limited to authorised users, such as NextCity consortium partners.</skos:scopeNote>
+    <skos:definition xml:lang="en">Exists but access is limited to authorised users, such as NextCity consortium partners.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/#on-request">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:prefLabel xml:lang="en">on request</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Available but must be explicitly requested from the contact point.</skos:scopeNote>
+    <skos:definition xml:lang="en">Available but must be explicitly requested from the contact point.</skos:definition>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/availability/#discontinued">
+    <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/availability/"/>
+    <skos:prefLabel xml:lang="en">discontinued</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">No longer maintained or supported.</skos:scopeNote>
+    <skos:definition xml:lang="en">No longer maintained or supported.</skos:definition>
+  </skos:Concept>
+</rdf:RDF>
