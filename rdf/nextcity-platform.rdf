@@ -23,6 +23,8 @@
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">Jupyter Notebook</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Interactive notebook environment mixing code, outputs and text.</skos:scopeNote>
+    <skos:definition xml:lang="en">Interactive notebook environment mixing code, outputs and text.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#local">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
@@ -65,27 +67,37 @@
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">AWS</skos:prefLabel>
     <skos:altLabel xml:lang="en">Amazon Web Services</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Amazon Web Services cloud platform.</skos:scopeNote>
+    <skos:definition xml:lang="en">Amazon Web Services cloud platform.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#google-cloud-platform">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">Google Cloud Platform</skos:prefLabel>
     <skos:altLabel xml:lang="en">GCP</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Google's cloud computing platform.</skos:scopeNote>
+    <skos:definition xml:lang="en">Google's cloud computing platform.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#microsoft-azure">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">Microsoft Azure</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Microsoft's cloud computing platform.</skos:scopeNote>
+    <skos:definition xml:lang="en">Microsoft's cloud computing platform.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#docker">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">Docker</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Runs the tool in a container that packages it with its dependencies.</skos:scopeNote>
+    <skos:definition xml:lang="en">Runs the tool in a container that packages it with its dependencies.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#kubernetes">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>
     <skos:prefLabel xml:lang="en">Kubernetes</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Orchestrates and scales containerised tools across a cluster.</skos:scopeNote>
+    <skos:definition xml:lang="en">Orchestrates and scales containerised tools across a cluster.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/platform/#hpc-cluster">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/platform/"/>

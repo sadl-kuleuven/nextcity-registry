@@ -78,48 +78,66 @@
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">convolutional neural network (CNN)</skos:prefLabel>
     <skos:altLabel xml:lang="en">CNN</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Neural network using convolutional layers, suited to images and gridded data.</skos:scopeNote>
+    <skos:definition xml:lang="en">Neural network using convolutional layers, suited to images and gridded data.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#recurrent-neural-network-rnn">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">recurrent neural network (RNN)</skos:prefLabel>
     <skos:altLabel xml:lang="en">RNN</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Neural network with recurrent connections for sequential data.</skos:scopeNote>
+    <skos:definition xml:lang="en">Neural network with recurrent connections for sequential data.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#long-short-term-memory-lstm">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">long short-term memory (LSTM)</skos:prefLabel>
     <skos:altLabel xml:lang="en">LSTM</skos:altLabel>
+    <skos:scopeNote xml:lang="en">RNN variant with gated memory cells that capture long-range dependencies in time series.</skos:scopeNote>
+    <skos:definition xml:lang="en">RNN variant with gated memory cells that capture long-range dependencies in time series.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#transformer">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">transformer</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Attention-based neural network for sequences and other structured inputs.</skos:scopeNote>
+    <skos:definition xml:lang="en">Attention-based neural network for sequences and other structured inputs.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#random-forest">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">random forest</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Ensemble of decision trees trained on random subsets of data and features.</skos:scopeNote>
+    <skos:definition xml:lang="en">Ensemble of decision trees trained on random subsets of data and features.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#decision-tree">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">decision tree</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Model that predicts by applying a hierarchy of feature-based splits.</skos:scopeNote>
+    <skos:definition xml:lang="en">Model that predicts by applying a hierarchy of feature-based splits.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#gradient-boosting">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">gradient boosting</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Ensemble that adds weak learners in sequence, each correcting the errors of the previous ones.</skos:scopeNote>
+    <skos:definition xml:lang="en">Ensemble that adds weak learners in sequence, each correcting the errors of the previous ones.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#encoder-decoder">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">encoder-decoder</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Network that encodes an input to a latent representation and decodes it to an output.</skos:scopeNote>
+    <skos:definition xml:lang="en">Network that encodes an input to a latent representation and decodes it to an output.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/architecture/#graph-neural-network-gnn">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/architecture/"/>
     <skos:prefLabel xml:lang="en">graph neural network (GNN)</skos:prefLabel>
     <skos:altLabel xml:lang="en">GNN</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Neural network operating on graph-structured data such as road networks.</skos:scopeNote>
+    <skos:definition xml:lang="en">Neural network operating on graph-structured data such as road networks.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

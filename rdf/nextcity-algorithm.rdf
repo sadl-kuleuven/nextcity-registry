@@ -117,51 +117,71 @@
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">RandomForestClassifier</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Random forest for classification (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Random forest for classification (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#randomforestregressor">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">RandomForestRegressor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Random forest for regression (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Random forest for regression (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeclassifier">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">DecisionTreeClassifier</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Decision tree for classification (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Decision tree for classification (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#decisiontreeregressor">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">DecisionTreeRegressor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Decision tree for regression (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Decision tree for regression (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingclassifier">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">GradientBoostingClassifier</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Gradient boosting for classification (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Gradient boosting for classification (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#gradientboostingregressor">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">GradientBoostingRegressor</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Gradient boosting for regression (scikit-learn).</skos:scopeNote>
+    <skos:definition xml:lang="en">Gradient boosting for regression (scikit-learn).</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#k-means-clustering">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">k-means clustering</skos:prefLabel>
     <skos:altLabel xml:lang="en">k-means</skos:altLabel>
+    <skos:scopeNote xml:lang="en">Partitions observations into k clusters by nearest cluster mean.</skos:scopeNote>
+    <skos:definition xml:lang="en">Partitions observations into k clusters by nearest cluster mean.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#dbscan">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">DBSCAN</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Density-based clustering that finds clusters of arbitrary shape and flags outliers as noise.</skos:scopeNote>
+    <skos:definition xml:lang="en">Density-based clustering that finds clusters of arbitrary shape and flags outliers as noise.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#linear-regression">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">linear regression</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Models a continuous outcome as a linear function of predictors.</skos:scopeNote>
+    <skos:definition xml:lang="en">Models a continuous outcome as a linear function of predictors.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/#logistic-regression">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/algorithm/"/>
     <skos:prefLabel xml:lang="en">logistic regression</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Models the probability of a binary outcome with the logistic function.</skos:scopeNote>
+    <skos:definition xml:lang="en">Models the probability of a binary outcome with the logistic function.</skos:definition>
   </skos:Concept>
 </rdf:RDF>

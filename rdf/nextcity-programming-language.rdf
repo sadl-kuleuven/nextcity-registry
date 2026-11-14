@@ -20,11 +20,15 @@
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">Python</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">General-purpose language; the main language for NextCity models and pipelines.</skos:scopeNote>
+    <skos:definition xml:lang="en">General-purpose language; the main language for NextCity models and pipelines.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#javascript">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">JavaScript</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Web programming language; used for the NextCity digital twin frontend and API.</skos:scopeNote>
+    <skos:definition xml:lang="en">Web programming language; used for the NextCity digital twin frontend and API.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#sql">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
@@ -37,30 +41,42 @@
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">R</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Language for statistical computing and graphics.</skos:scopeNote>
+    <skos:definition xml:lang="en">Language for statistical computing and graphics.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#java">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">Java</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">General-purpose, object-oriented language running on the Java Virtual Machine.</skos:scopeNote>
+    <skos:definition xml:lang="en">General-purpose, object-oriented language running on the Java Virtual Machine.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#c">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">C++</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Compiled, high-performance general-purpose language.</skos:scopeNote>
+    <skos:definition xml:lang="en">Compiled, high-performance general-purpose language.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#julia">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">Julia</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">High-performance language for numerical and scientific computing.</skos:scopeNote>
+    <skos:definition xml:lang="en">High-performance language for numerical and scientific computing.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#matlab">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">MATLAB</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">Proprietary numerical computing environment and language.</skos:scopeNote>
+    <skos:definition xml:lang="en">Proprietary numerical computing environment and language.</skos:definition>
   </skos:Concept>
   <skos:Concept rdf:about="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/#scala">
     <skos:inScheme rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:topConceptOf rdf:resource="https://sadl-kuleuven.github.io/nextcity-registry/programming-language/"/>
     <skos:prefLabel xml:lang="en">Scala</skos:prefLabel>
+    <skos:scopeNote xml:lang="en">JVM language combining object-oriented and functional programming, often used with Apache Spark.</skos:scopeNote>
+    <skos:definition xml:lang="en">JVM language combining object-oriented and functional programming, often used with Apache Spark.</skos:definition>
   </skos:Concept>
 </rdf:RDF>
